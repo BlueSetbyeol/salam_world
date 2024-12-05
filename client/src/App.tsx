@@ -17,6 +17,7 @@ function App() {
 			<main className="text-box">
 				<p>Que voulez vous dire ?</p>
 				<LanguageFiltre/>
+				
 			</main>
 
 			<footer>Développé par la Salam World Team</footer>

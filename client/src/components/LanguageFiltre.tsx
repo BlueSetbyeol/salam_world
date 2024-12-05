@@ -1,45 +1,26 @@
+import { useEffect, useState } from "react";
+
+interface languageProps {
+    id:number;
+    language:string;
+}
+
 export default function LanguageFiltre () {
-const langues = [
-    {
-        id:1,
-        langue:"français",
-    },
-    {
-        id:2,
-        langue:"Anglais",
-    }, 
-    {
-        id:3,
-        langue:"Espagnol",
-    },
-      {
-        id:4,
-        langue:"Arabe",
-    },
-      {
-        id:5,
-        langue:"Italien",
-    },
-      {
-        id:6,
-        langue:"Portugais",
-    },
-      {
-        id:7,
-        langue:"Coréen",
-    },
-      {
-        id:8,
-        langue:"Allemand",
-    }
-]
+    const [languages, setLanguages] = useState<languageProps[]>([]);
+    useEffect(() => {
+        fetch("http://localhost:3310/api/translate")
+        .then((res) => res.json())
+        .then((data) => setLanguages(data))
+        .catch((err) => console.error(err));
+    }, []);
+
     return (
 
         <label> 
             Choisissez une langue :
             <select >
-                {langues.map((langue) => (
-                    <option value={langue.langue} key={langue.id}> {langue.langue} </option>
+                {languages.map((langue) => (
+                    <option value={langue.language} key={langue.id}> {langue.language} </option>
                 )) }
             </select>
         </label>
