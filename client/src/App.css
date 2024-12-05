@@ -1,5 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Neonderthaw&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap);
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	font-family: "Titillium Web", sans-serif;
+	font-size: 16px;
+	line-height: 1.7;
+	color: #eee;
+	margin: 0;
+}
+
+#root {
+	height: 100vh;
+	background-image: url("./assets/images/background.jpg");
+	background-size: cover;
+	background-position: top;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	padding: 1rem;
+}
+
+nav {
+	height: 16vh;
+}
+
+/* 
+.logo {
+  font-size: larger;
+} */
+
+header {
+	text-align: center;
+	height: 8vh;
+	font-family: "Neonderthaw", serif;
+}
+/* 
+.navbar ul {
+	display: flex;
+	justify-content: end;
+	gap: 1rem;
+	list-style: none;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #eee;
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+}
+
+.navbar a:hover {
+	scale: 110%;
+} */
+
+main {
+	height: calc(100vh - 30vh);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* 
+.btn:link,
+.btn:visited {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	display: inline-block;
+	border-radius: 100px;
+	transition: all 0.2s;
+	position: relative;
+}
+
+.btn:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+	background-color: #fff;
+	color: #777;
+} */
+
+footer {
+	align-self: center;
+	height: 6vh;
 }
