@@ -3,18 +3,20 @@ import "./App.css";
 function App() {
 	return (
 		<>
-			<header>
-				<h1 className="logo">Salam World</h1>
-			</header>
-
-			<nav className="navbar">
+			<nav>
 				<ul>
+					<li className="logo">Logo</li>
 					<li>Apprendre à dire bonjour</li>
 				</ul>
 			</nav>
 
-			<main className="text-box">
-				<p>Que voulez vous dire ?</p>
+			<header>
+				<h1 className="title">Salam Alikoum World</h1>
+			</header>
+
+			<main>
+				<h1>Where Are you going Today ?</h1>
+				<p>Choose your language</p>
 			</main>
 
 			<footer>Développé par la Salam World Team</footer>
