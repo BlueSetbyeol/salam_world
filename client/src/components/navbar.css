@@ -1,0 +1,26 @@
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	color: white;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	gap: 35px;
+	padding-right: 3%;
+	justify-content: center;
+	align-items: center;
+}
+
+li {
+	display: flex;
+}
+
+#logonav {
+	width: 5%;
+	padding: 10px;
+}
