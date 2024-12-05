@@ -15,4 +15,10 @@ router.post("/api/items", itemActions.add);
 
 /* ************************************************************************* */
 
+import Translate from "./Translate/Translate";
+
+router.get("/api/translate", Translate.browse);
+router.get("/api/translate/:id", Translate.read);
+
+
 export default router;
