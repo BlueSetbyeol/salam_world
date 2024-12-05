@@ -15,7 +15,7 @@ body {
 }
 
 #root {
-	height: 100vh;
+	height: 120vh;
 	background-image: url("./assets/images/background.jpg");
 	background-size: cover;
 	background-position: top;
@@ -37,7 +37,7 @@ header {
 }
 
 main {
-	height: calc(100vh - 28vh);
+	height: calc(120vh - 28vh);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
