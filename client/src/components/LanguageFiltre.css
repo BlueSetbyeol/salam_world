@@ -1,0 +1,30 @@
+#general {
+	width: 40vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+p {
+	font-size: medium;
+}
+
+img {
+	height: 10vh;
+	margin: 15px;
+}
+
+#para {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10vw;
+}
+
+#filtre {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
