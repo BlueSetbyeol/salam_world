@@ -1,22 +1,19 @@
 import "./App.css";
+import LanguageFiltre from "./components/LanguageFiltre";
+import NavBar from "./components/navbar";
+
 
 function App() {
 	return (
 		<>
+			<NavBar />
 			<header>
-				<h1 className="logo">Salam World</h1>
+				<h1 className="title">Salam Alikoum World</h1>
 			</header>
-
-			<nav className="navbar">
-				<ul>
-					<li>Apprendre à dire bonjour</li>
-				</ul>
-			</nav>
-
-			<main className="text-box">
-				<p>Que voulez vous dire ?</p>
+			<main>
+				<h1>Where Are you going Today ?</h1>
+				<LanguageFiltre/>
 			</main>
-
 			<footer>Développé par la Salam World Team</footer>
 		</>
 	);
