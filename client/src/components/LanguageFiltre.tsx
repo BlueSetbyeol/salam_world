@@ -57,11 +57,11 @@ export default function LanguageFiltre() {
 				{languages
 					.filter((langue) => langue.language === choice)
 					.map((langue) => (
-						<div>
+						<div key={langue.id}>
 							{" "}
 							<div id="general">
 								<div id="image">
-									<img src={langue.flag} />
+									<img src={langue.flag} alt="flag" />
 								</div>
 								<div id="para">
 									<div id="colonne1">
