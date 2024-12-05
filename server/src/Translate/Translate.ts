@@ -4,7 +4,7 @@ const survivor = [
     {
       id: 1,
       language: "Anglais",
-      flag: "",
+      flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/167px-Flag_of_the_United_Kingdom_%283-5%29.svg.png",
       sentences: {
         greeting: "Hello!",
         goodbye: "Goodbye!",
@@ -31,7 +31,7 @@ const survivor = [
     {
       id: 2,
       language: "Espagnol",
-      flag: "",
+      flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/150px-Flag_of_Spain.svg.png",
       sentences: {
         greeting: "¡Hola!",
         goodbye: "¡Adiós!",
@@ -58,7 +58,7 @@ const survivor = [
     {
       id: 3,
       language: "Italien",
-      flag: "",
+      flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/150px-Flag_of_Italy.svg.png",
       sentences: {
         greeting: "Ciao!",
         goodbye: "Arrivederci!",
@@ -84,8 +84,8 @@ const survivor = [
     },
     {
       id: 4,
-      language: "Maghrébin",
-      flag: "",
+      language: "Marocain",
+      flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/150px-Flag_of_Morocco.svg.png",
       sentences: {
         greeting: "Salam 3alaykum",
         goodbye: "Bslama",
@@ -112,7 +112,7 @@ const survivor = [
     {
       id: 5,
       language: "Coréen",
-      flag: "",
+      flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/150px-Flag_of_South_Korea.svg.png",
       sentences: {
         greeting: "안녕하세요! (Annyeonghaseyo!)",
         goodbye: "안녕히 가세요! (Annyeonghi gaseyo!)",
@@ -139,7 +139,7 @@ const survivor = [
     {
       id: 6,
       language: "Français",
-      flag: "",
+      flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/150px-Flag_of_France.svg.png",
       sentences: {
         greeting: "Bonjour !",
         goodbye: "Au revoir !",
