@@ -29,35 +29,11 @@ nav {
 	height: 16vh;
 }
 
-/* 
-.logo {
-  font-size: larger;
-} */
-
 header {
 	text-align: center;
 	height: 8vh;
 	font-family: "Neonderthaw", serif;
 }
-/* 
-.navbar ul {
-	display: flex;
-	justify-content: end;
-	gap: 1rem;
-	list-style: none;
-}
-
-.navbar a {
-	text-decoration: none;
-	color: #eee;
-	display: flex;
-	gap: 0.5rem;
-	align-items: center;
-}
-
-.navbar a:hover {
-	scale: 110%;
-} */
 
 main {
 	height: calc(100vh - 30vh);

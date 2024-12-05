@@ -1,14 +1,10 @@
 import "./App.css";
+import NavBar from "./components/navbar";
 
 function App() {
 	return (
 		<>
-			<nav>
-				<ul>
-					<li className="logo">Logo</li>
-					<li>Apprendre à dire bonjour</li>
-				</ul>
-			</nav>
+			<NavBar />
 
 			<header>
 				<h1 className="title">Salam Alikoum World</h1>
