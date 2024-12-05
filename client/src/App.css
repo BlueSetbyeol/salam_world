@@ -26,7 +26,8 @@ body {
 }
 
 nav {
-	height: 16vh;
+	height: 10vh;
+	margin-bottom: 4vh;
 }
 
 header {
@@ -36,11 +37,23 @@ header {
 }
 
 main {
-	height: calc(100vh - 30vh);
+	height: calc(100vh - 28vh);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
+select {
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+	border: none;
+	margin-left: 3px;
+}
+
+option {
+	background-color: grey;
+}
+
 /* 
 .btn:link,
 .btn:visited {
