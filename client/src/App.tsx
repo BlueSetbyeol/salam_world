@@ -2,7 +2,6 @@ import "./App.css";
 import LanguageFiltre from "./components/LanguageFiltre";
 import NavBar from "./components/navbar";
 
-
 function App() {
 	return (
 		<>
@@ -12,7 +11,7 @@ function App() {
 			</header>
 			<main>
 				<h1>Where Are you going Today ?</h1>
-				<LanguageFiltre/>
+				<LanguageFiltre />
 			</main>
 			<footer>Développé par la Salam World Team</footer>
 		</>
