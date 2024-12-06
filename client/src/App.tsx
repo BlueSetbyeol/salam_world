@@ -10,7 +10,7 @@ function App() {
 				<h1 className="title">Salam Alikoum World</h1>
 			</header>
 			<main>
-				<h1>Where Are you going Today ?</h1>
+				<h1>Où allons nous aujourd'hui ?</h1>
 				<LanguageFiltre />
 			</main>
 			<footer>Développé par la Salam World Team</footer>
