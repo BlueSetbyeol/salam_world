@@ -54,7 +54,7 @@ export default function LanguageFiltre() {
 				{languages
 					.filter((langue) => langue.language === choice)
 					.map((langue) => (
-						<div>
+						<div key={langue.id}>
 							{" "}
 							<img src={langue.flag} />
 							<p>Bonjour : {langue.sentences.greeting} </p>
