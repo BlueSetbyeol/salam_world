@@ -1,9 +1,13 @@
 #general {
-	width: 40vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+}
+
+#total {
+	width: 60vw;
+	height: 70vh;
 }
 
 p {
@@ -12,12 +16,10 @@ p {
 
 img {
 	height: 10vh;
-	margin: 15px;
 }
 
 #image {
-	height: 10vh;
-	margin: 25px;
+	margin: 50px 0px;
 }
 
 #para {
