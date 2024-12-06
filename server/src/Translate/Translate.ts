@@ -190,6 +190,33 @@ const survivor = [
 			IAmLost: "Je suis sur le carreau",
 		},
 	},
+	{
+		id: 8,
+		language: "Wild",
+		flag: "https://s3-eu-west-1.amazonaws.com/tpd/logos/62b409c958c677638cd268e2/0x0.png",
+		sentences: {
+			greeting: "Hello-Hello",
+			goodbye: "rm-rf *",
+			please: "Pull request",
+			thankYou: "Merge",
+			yes: "Ca fait le café",
+			no: "N",
+			excuseMe: "Croissant-me",
+			sorry: "Tricky",
+			howMuch: "Math.floor",
+			whereIs: "c'est rotor",
+			help: "On cherche un expert",
+			water: "getElementByWater",
+			food: "A la soupe!",
+			hotel: "Salle de repos",
+			bus: "Prend tes Sandales",
+			taxi: "Slack",
+			train: "Retard",
+			street: "Le Platypus",
+			bathroom: "Ctrl+suppr",
+			IAmLost: "404-not-found",
+		},
+	},
 ];
 
 // Declare the action
