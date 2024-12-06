@@ -55,7 +55,7 @@ export default function LanguageFiltre() {
 					)}
 				</select>
 			</div>
-			<main>
+			<div id="total">
 				{languages
 					.filter((langue) => langue.language === choice)
 					.map((langue) => (
@@ -153,7 +153,7 @@ export default function LanguageFiltre() {
 							</div>
 						</div>
 					))}
-			</main>
+			</div>
 		</label>
 	);
 }
