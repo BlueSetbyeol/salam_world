@@ -15,6 +15,11 @@ img {
 	margin: 15px;
 }
 
+#image {
+	height: 10vh;
+	margin: 25px;
+}
+
 #para {
 	display: flex;
 	justify-content: space-between;

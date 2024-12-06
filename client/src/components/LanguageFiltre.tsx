@@ -44,13 +44,15 @@ export default function LanguageFiltre() {
 			<div id="filtre">
 				Choisissez une langue :
 				<select onChange={(event) => setChoice(event.target.value)}>
-					<option value=""> ___ </option>
-					{languages.map((langue) => (
-						<option value={langue.language} key={langue.id}>
-							{" "}
-							{langue.language}{" "}
-						</option>
-					))}
+					<option value=""> Select </option>
+					{languages.map(
+						(langue) =>
+							langue.language !== "Français" && (
+								<option value={langue.language} key={langue.id}>
+									{langue.language}
+								</option>
+							),
+					)}
 				</select>
 			</div>
 			<main>
